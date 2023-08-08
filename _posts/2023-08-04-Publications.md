@@ -27,7 +27,7 @@ image: Publications.png
   <br>
   Check out our <a href="https://ieeexplore.ieee.org/abstract/document/10094831" target="_blank">paper</a>,a presentation on <a href="https://www.youtube.com/watch?v=eS74gUV2d4o" target="_blank">youtube</a>,and code on <a href="https://github.com/phy710/ICASSP2023-AE-DCT" target="_blank">github</a>.
 </p>
-<hr style="border: 2px solid #ccc; width: 100%;>
+<hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
   
