@@ -10,7 +10,6 @@ image: Publications.png
 <hr style="border: 3px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/ICML2023.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>A Hybrid Quantum-Classical Approach based on the Hadamard Transform for the Convolutional Layer</strong>
   <br>
@@ -21,7 +20,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/ICASSP2023_1.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Real-Time Wireless ECG-Derived Respiration Rate Estimation using an Autoencoder with a DCT Layer</strong>
   <br>
@@ -33,7 +31,6 @@ image: Publications.png
 <br>
 <br>
   
-<img src="./assets/img/ICASSP2023_2.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Classification of the Cervical Vertebrae Maturation (CVM) Stages Using the Tripod Network</strong>
   <br>
@@ -44,7 +41,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/WildfireDetectionVia .png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Wildfire Detection Via Transfer Learning: A Survey</strong>
   <br>
@@ -55,7 +51,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/Eegclassification.jpg" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>EEG classification by factoring in sensor spatial configuration</strong>
   <br>
@@ -66,7 +61,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/MF-Net.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>MF-Net: Compute-in-memory SRAM for multibit precision inference using memory-immersed data conversion and multiplication-free operators</strong>
   <br>
@@ -77,7 +71,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/Real-time low-cost.jpg" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Real-time low-cost drift compensation for chemical sensors using a deep neural network with hadamard transform and additive layers</strong>
   <br>
@@ -88,7 +81,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/Discretecosinetransform.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong> Discrete cosine transform based causal convolutional neural network for drift compensation in chemical sensors</strong>
   <br>
@@ -99,7 +91,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/Reviewofsignalprocessing .jpg" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Review of signal processing applications of Pyroelectric Infrared (PIR) sensors with a focus on respiration rate and heart rate detection</strong>
   <br>
@@ -110,7 +101,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/Detectinganomaly.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Detecting anomaly in chemical sensors via regularized contrastive learning</strong>
   <br>
@@ -121,7 +111,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/Fullyautomated.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Fully automated determination of the cervical vertebrae maturation stages using deep learning with directional filters</strong>
   <br>
@@ -132,7 +121,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/Deep-Learning-Based.jpg" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Deep-Learning-Based Gas Leak Source Localization From Sparse Sensor Data</strong>
   <br>
@@ -143,7 +131,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/AggregateNet.jpg" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>AggregateNet: A deep learning model for automated classification of cervical vertebrae maturation stages</strong>
   <br>
@@ -154,7 +141,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/ANovelContinuous.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>A Novel Continuous Classification System for the Cervical Vertebrae Maturation (CVM) Stages Using Convolutional Neural Networks
 </strong>
@@ -166,7 +152,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/gazegnn.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>GazeGNN: A Gaze-Guided Graph Neural Network for Chest X-ray Classification</strong>
   <br>
@@ -177,7 +162,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/TECS2022.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Block Walsh–Hadamard Transform-based Binary Layers in Deep Neural Networks</strong>
   <br>
@@ -188,7 +172,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/IEEESensors2022.jpg" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Detecting Anomaly in Chemical Sensors via L1-Kernel-Based Principal Component Analysis</strong>
   <br>
@@ -199,7 +182,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/ICASSP2022.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Multiplication-avoiding variant of power iteration with applications</strong>
   <br>
@@ -210,7 +192,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/CVPRW2022.jpg" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Deep Neural Network With Walsh-Hadamard Transform Layer for Ember Detection During a Wildfire</strong>
   <br>
@@ -221,7 +202,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/EUSIPCO2021.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Robust Principal Component Analysis Using a Novel Kernel Related with the L1-Norm</strong>
   <br>
@@ -232,7 +212,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/CVPRW2021.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Fast Walsh-Hadamard Transform and Smooth-Thresholding Based Binary Layers in Deep Neural Networks</strong>
   <br>
@@ -243,7 +222,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/MDPISensors2020.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Computationally Efficient Wildfire Detection Method Using a Deep Convolutional Network Pruned via Fourier Analysis</strong>
   <br>
@@ -254,7 +232,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/ICIP2020.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Fourier Domain Pruning of MobileNet-V2 with Application to Video Based Wildfire Detection</strong>
   <br>
@@ -265,7 +242,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;">
 <br>
 <br>
-<img src="./assets/img/SIVP2020.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Additive Neural Network for Forest Fire Detection</strong>
   <br>
@@ -276,7 +252,6 @@ image: Publications.png
 <hr style="border: 2px solid #ccc; width: 100%;" >
 <br>
 <br>
-<img src="./assets/img/IEEEJournalofSelectedTopicsinSignalProcessing2020.png" alt="" style="height: 250px; width: 350px;">
 <p align="middle">
   <strong>Computationally Efficient Spatio-Temporal Dynamic Texture Recognition for Volatile Organic Compound (VOC) Leakage Detection in Industrial Plants</strong>
   <br>
