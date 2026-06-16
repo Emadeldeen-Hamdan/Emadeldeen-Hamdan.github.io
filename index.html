@@ -1,4 +1,184 @@
 ---
-layout: home
+layout: default
 title: Home
 ---
+
+<main class="profile-site">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Efficient AI / Computer Vision / Medical Imaging</p>
+      <h1>Emadeldeen Hamdan</h1>
+      <p class="lead">
+        I am a Ph.D. candidate in Electrical and Computer Engineering at the University of Illinois Chicago,
+        building efficient AI models for computer vision, remote sensing, MRI reconstruction, and cancer imaging.
+      </p>
+      <p>
+        My work focuses on lightweight deep learning architectures, transform-based learning with Hadamard and DCT
+        representations, state-space models, and hardware-aware model design for real-world deployment.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="{{ site.github.url }}/resume/Emadeldeen_Resume2026.pdf">Resume</a>
+        <a class="button" href="https://scholar.google.com/citations?hl=en&user=HeFM-v0AAAAJ">Google Scholar</a>
+        <a class="button" href="mailto:e.hamdan2030@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <img src="{{ site.github.url }}/assets/img/EmadeldeenHamdan.jpeg" alt="Portrait of Emadeldeen Hamdan">
+      <div>
+        <strong>Ph.D. Candidate, UIC ECE</strong>
+        <span>Expected graduation: May 2027</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="research" class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Research</p>
+      <h2>Efficient models for high-impact vision problems.</h2>
+    </div>
+    <div class="research-grid">
+      <article>
+        <h3>Efficient AI Architectures</h3>
+        <p>
+          Designing low-complexity deep learning models that preserve accuracy while reducing computation through
+          transform-based layers, decorrelated attention, and state-space modeling.
+        </p>
+      </article>
+      <article>
+        <h3>Medical Imaging</h3>
+        <p>
+          Developing MRI reconstruction, segmentation, and prostate cancer analysis pipelines with hybrid residual,
+          Hadamard, and Mamba-based architectures.
+        </p>
+      </article>
+      <article>
+        <h3>Remote Sensing</h3>
+        <p>
+          Applying transfer learning and computer vision to wildfire monitoring, situational awareness, and robust
+          environmental detection under challenging data conditions.
+        </p>
+      </article>
+      <article>
+        <h3>Hardware-Aware ML</h3>
+        <p>
+          Exploring GPU training, FPGA deployment, high-level synthesis, and model designs suited for constrained
+          computing systems.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="publications" class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Selected Publications</p>
+      <h2>Recent work across efficient vision, imaging, and signal processing.</h2>
+    </div>
+    <div class="publication-list">
+      <article>
+        <h3>Discrete Cosine Transform Based Decorrelated Attention for Vision Transformers</h3>
+        <p>Accepted to IJCAI, 2026. Introduces DCT-based methods to improve the efficiency and performance of Vision Transformers.</p>
+      </article>
+      <article>
+        <h3>Hybrid Multi-Dimensional MRI Prostate Cancer Detection via Hadamard-Based Bias Correction and Residual Networks</h3>
+        <p>Accepted to EMBC, 2026. A transform-based MRI bias correction and classification pipeline improving cancer detection accuracy by 30%.</p>
+      </article>
+      <article>
+        <h3>Zonal-Aware Prostate Cancer Detection via Hadamard-Fused Mamba-UNet</h3>
+        <p>Submitted to MICCAI Workshops, 2026. Combines Hadamard representations with Mamba-based models for real-time prostate zonal segmentation.</p>
+      </article>
+      <article>
+        <h3>Real-time Instantaneous Phase Estimation Using a Deep Dual-Branch Complex Neural Network</h3>
+        <p>IEEE Transactions on Biomedical Engineering, 2025. A lightweight architecture for low-latency neural oscillation phase estimation with FPGA implementation.</p>
+      </article>
+      <article>
+        <h3>Reconfigurable Electromagnetically Unclonable Functions Based on Graphene RF Modulators</h3>
+        <p>ACS Nano, 2025. Hardware security work using electromagnetic PUFs for device authentication and cryptographic identification.</p>
+      </article>
+      <article>
+        <h3>Wildfire Detection via Transfer Learning: A Survey</h3>
+        <p>Signal, Image and Video Processing, 2024. Reviews transfer learning approaches for large-scale wildfire detection, generalization, and dataset bias.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience" class="section two-column">
+    <div>
+      <p class="eyebrow">Experience</p>
+      <h2>Research, teaching, editorial work, and applied engineering.</h2>
+    </div>
+    <div class="timeline">
+      <article>
+        <span>May 2025 - Present</span>
+        <h3>Research Assistant, Machine and Hybrid Intelligence Lab</h3>
+        <p>Northwestern University. AI-driven medical imaging and prostate cancer analysis with Prof. Ulas Bagci and Prof. Ahmet Enis Cetin.</p>
+      </article>
+      <article>
+        <span>Jan. 2023 - Present</span>
+        <h3>Research & Teaching Assistant, UIC ECE</h3>
+        <p>Developing scalable models for computer vision and signal processing while supporting DSP and neural networks courses.</p>
+      </article>
+      <article>
+        <span>July 2025 - Present</span>
+        <h3>Assistant Editor, Springer Nature</h3>
+        <p>Assessing machine learning and signal processing manuscripts for clarity, rigor, and publication quality.</p>
+      </article>
+      <article>
+        <span>May 2022 - Jan. 2023</span>
+        <h3>Electrical Engineer, L3DFX LLC</h3>
+        <p>Designed and tested signal processing circuits, embedded systems, and microcontroller-based control solutions.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section two-column">
+    <div>
+      <p class="eyebrow">Recognition</p>
+      <h2>Awards and leadership.</h2>
+    </div>
+    <div class="compact-list">
+      <p><strong>NASA Beyond the Algorithm Challenge, Top 9 Finalist.</strong> Developed transform-based ML layers for efficient computing in quantum and in-memory systems.</p>
+      <p><strong>NASA MSI Incubator Wildfire Climate Tech Challenge, Runner-Up.</strong> Built a computer vision system for wildfire situational awareness and early detection.</p>
+      <p><strong>NSF I-Corps POSE Program, Entrepreneurial Lead.</strong> Led commercialization work for hardware-aware ML solutions.</p>
+      <p><strong>IEEE Communication Society, UIC Student Branch Secretary.</strong> Organizing technical events across AI, signal processing, and communications.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Technical Strengths</p>
+      <h2>Tools and methods I use to build efficient AI systems.</h2>
+    </div>
+    <div class="skill-cloud">
+      <span>Python</span>
+      <span>PyTorch</span>
+      <span>TensorFlow</span>
+      <span>CUDA</span>
+      <span>Computer Vision</span>
+      <span>State-Space Models</span>
+      <span>Mamba</span>
+      <span>Hadamard Transforms</span>
+      <span>DCT</span>
+      <span>LLMs and VLMs</span>
+      <span>FPGA Deployment</span>
+      <span>HLS</span>
+      <span>MATLAB</span>
+      <span>C</span>
+      <span>Linux</span>
+      <span>Git</span>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-panel">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h2>Open to research collaborations and Ph.D.-level opportunities in efficient AI.</h2>
+      <p>Chicago, IL / University of Illinois Chicago</p>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:e.hamdan2030@gmail.com">e.hamdan2030@gmail.com</a>
+      <a href="https://github.com/Emadeldeen-Hamdan">github.com/Emadeldeen-Hamdan</a>
+      <a href="https://www.linkedin.com/in/emadeldeen-h/">linkedin.com/in/emadeldeen-h</a>
+      <a href="https://scholar.google.com/citations?hl=en&user=HeFM-v0AAAAJ">Google Scholar</a>
+    </div>
+  </section>
+</main>

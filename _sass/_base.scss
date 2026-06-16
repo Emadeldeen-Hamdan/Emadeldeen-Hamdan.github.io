@@ -40,9 +40,9 @@ h4, h5, h6 {
 /* Body */
 body {
   font-family: $base-font-family;
+  background: #fbfcfd;
 }
 body img {
-  align: middle;
   margin: 5px auto auto auto;
   display: block;
   max-width: 600px;
@@ -88,7 +88,7 @@ dd {
 */
 
 a {
-  color: $brand-color;
+  color: #0f5f59;
   text-decoration: none;
 }
 
