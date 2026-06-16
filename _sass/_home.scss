@@ -116,7 +116,7 @@
 }
 
 .research-grid article,
-.publication-list article,
+.paper-card,
 .timeline article {
   border: 1px solid #d7dee8;
   border-radius: 8px;
@@ -125,7 +125,6 @@
 }
 
 .research-grid h3,
-.publication-list h3,
 .timeline h3 {
   margin-top: 0;
   color: #07111f;
@@ -147,14 +146,70 @@
   font-size: 24px;
 }
 
-.publication-list h3 a {
+.paper-card summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: start;
   color: #07111f;
-  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+  list-style: none;
 }
 
-.publication-list h3 a:hover {
+.paper-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.paper-card summary::before {
+  content: "+";
+  width: 24px;
+  height: 24px;
+  grid-row: 1;
+  grid-column: 2;
+  border: 1px solid #c9d3df;
+  border-radius: 999px;
   color: #0f766e;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.paper-card[open] summary::before {
+  content: "-";
+}
+
+.paper-card summary span {
+  grid-column: 1;
+}
+
+.paper-card summary small {
+  grid-column: 1 / -1;
+  color: #0f766e;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.paper-card summary:hover span {
+  color: #0f766e;
+}
+
+.paper-card p {
+  margin: 14px 0 0;
+}
+
+.paper-link {
+  display: inline-flex;
+  margin-top: 12px;
+  color: #07111f;
+  font-weight: 700;
   text-decoration: underline;
+}
+
+.paper-link:hover {
+  color: #0f766e;
 }
 
 .all-papers {
@@ -165,7 +220,11 @@
   padding: 16px 18px;
 }
 
-.compact-publications h3 {
+.compact-publications .paper-card {
+  padding: 16px 18px;
+}
+
+.compact-publications summary {
   font-size: 18px;
 }
 
