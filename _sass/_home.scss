@@ -92,6 +92,58 @@
   color: #526173;
 }
 
+.advisor-strip {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.8fr);
+  gap: 32px;
+  align-items: start;
+  padding: 34px 0;
+  border-bottom: 1px solid #d7dee8;
+}
+
+.advisor-strip h2 {
+  margin-top: 8px;
+  color: #07111f;
+  font-size: 28px;
+}
+
+.advisor-strip p {
+  max-width: 720px;
+  color: #425166;
+}
+
+.advisor-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.advisor-card {
+  display: grid;
+  gap: 6px;
+  min-height: 96px;
+  padding: 18px;
+  border: 1px solid #d7dee8;
+  border-radius: 8px;
+  background: #ffffff;
+  text-decoration: none !important;
+}
+
+.advisor-card:hover {
+  border-color: #0f766e;
+}
+
+.advisor-card span {
+  color: #07111f;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.advisor-card small {
+  color: #0f766e;
+  font-weight: 700;
+}
+
 .section {
   padding: 64px 0;
   border-bottom: 1px solid #d7dee8;
@@ -304,6 +356,7 @@
 
 @media (max-width: 900px) {
   .hero,
+  .advisor-strip,
   .two-column,
   .contact-panel {
     grid-template-columns: 1fr;
@@ -323,6 +376,10 @@
 
   .research-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .advisor-list {
+    grid-template-columns: 1fr;
   }
 }
 
