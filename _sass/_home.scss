@@ -188,8 +188,8 @@
 
 .collaborator-logo-grid {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
   align-items: stretch;
 }
 
@@ -197,8 +197,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 112px;
-  padding: 18px;
+  min-height: 96px;
+  padding: 16px;
   border: 1px solid #d7dee8;
   border-radius: 8px;
   background: #ffffff;
@@ -206,8 +206,8 @@
 
 .collaborator-logo img {
   display: block;
-  max-width: 100%;
-  max-height: 72px;
+  max-width: 112px;
+  max-height: 58px;
   width: auto;
   height: auto;
   margin: 0;
