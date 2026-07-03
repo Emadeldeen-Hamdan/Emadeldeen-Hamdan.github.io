@@ -9,6 +9,7 @@ google-ID: ''
 menu:
 - {name: 'Research',  url: 'research'}
 - {name: 'Publications',      url: 'publications'}
+- {name: 'Presentations',      url: 'presentations'}
 - {name: 'Experience',            url: 'experience'}
 - {name: 'Recognition',            url: 'recognition'}
 - {name: 'Skills',            url: 'skills'}
