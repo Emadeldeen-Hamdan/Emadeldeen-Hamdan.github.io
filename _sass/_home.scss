@@ -196,7 +196,8 @@
 .collaborator-logo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: 14px;
   min-height: 96px;
   padding: 16px;
   border: 1px solid #d7dee8;
@@ -206,12 +207,20 @@
 
 .collaborator-logo img {
   display: block;
-  max-width: 112px;
-  max-height: 58px;
+  flex: 0 0 auto;
+  max-width: 72px;
+  max-height: 52px;
   width: auto;
   height: auto;
   margin: 0;
   object-fit: contain;
+}
+
+.collaborator-logo span {
+  color: #07111f;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 .subpage-site .section {
