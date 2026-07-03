@@ -7,12 +7,9 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Research',  url: '#research'}
-- {name: 'Publications',      url: '#publications'}
-- {name: 'Experience',            url: '#experience'}
-- {name: 'Contact',            url: '#contact'}
-
-social:
-- {icon: 'github', link: 'https://github.com/Emadeldeen-Hamdan'}
-- {icon: 'linkedin', link: 'https://www.linkedin.com/in/emadeldeen-h/'}
-- {icon: 'google', link: 'https://scholar.google.com/citations?hl=en&user=HeFM-v0AAAAJ'}
+- {name: 'Research',  url: 'research'}
+- {name: 'Publications',      url: 'publications'}
+- {name: 'Experience',            url: 'experience'}
+- {name: 'Recognition',            url: 'recognition'}
+- {name: 'Skills',            url: 'skills'}
+- {name: 'Contact',            url: 'contact'}

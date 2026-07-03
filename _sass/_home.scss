@@ -144,64 +144,47 @@
   font-weight: 700;
 }
 
-.tab-shell {
-  padding-top: 32px;
+
+.home-link-section {
+  padding: 56px 0 72px;
 }
 
-.section-tabs {
-  position: sticky;
-  top: 66px;
-  z-index: 20;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  overflow-x: auto;
-  padding: 10px 0 16px;
-  background: #fbfcfd;
-  border-bottom: 1px solid #d7dee8;
+.home-link-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
 }
 
-.tab-link {
-  display: inline-flex;
-  align-items: center;
-  min-height: 38px;
-  padding: 0 14px;
-  border: 1px solid #c9d3df;
-  border-radius: 999px;
-  color: #243448;
-  font-size: 15px;
-  font-weight: 700;
+.home-link-card {
+  display: grid;
+  gap: 10px;
+  min-height: 138px;
+  padding: 20px;
+  border: 1px solid #d7dee8;
+  border-radius: 8px;
+  background: #ffffff;
   text-decoration: none !important;
-  white-space: nowrap;
 }
 
-.tab-link:hover,
-.tab-link.is-active {
+.home-link-card:hover {
   border-color: #0f766e;
-  background: #0f766e;
-  color: white;
 }
 
-.tabs-ready .tab-panel {
-  display: none;
+.home-link-card span {
+  color: #07111f;
+  font-size: 22px;
+  font-weight: 700;
 }
 
-.tabs-ready .tab-panel.is-active {
-  display: grid;
+.home-link-card small {
+  color: #425166;
+  font-size: 15px;
+  line-height: 1.45;
 }
 
-.tabs-ready .tab-panel.section:not(.two-column):not(.contact-panel) {
-  display: none;
+.subpage-site .section {
+  border-bottom: 0;
 }
-
-.tabs-ready .tab-panel.section:not(.two-column):not(.contact-panel).is-active {
-  display: block;
-}
-
-.tabs-ready .tab-panel.contact-panel.is-active {
-  display: grid;
-}
-
 
 .section {
   padding: 64px 0;
@@ -414,9 +397,6 @@
 }
 
 @media (max-width: 900px) {
-  .section-tabs {
-    top: 58px;
-  }
 
   .hero,
   .advisor-strip,
@@ -441,6 +421,10 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .home-link-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .advisor-list {
     grid-template-columns: 1fr;
   }
@@ -460,6 +444,10 @@
   }
 
   .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-link-grid {
     grid-template-columns: 1fr;
   }
 

@@ -50,349 +50,38 @@ title: Home
         <small>Bagci Lab</small>
       </a>
     </div>
-</section>
+  </section>
 
-<div class="tab-shell">
-  <nav class="section-tabs" aria-label="Profile sections">
-    <a class="tab-link" href="#research" data-tab-target="research">Research</a>
-    <a class="tab-link" href="#publications" data-tab-target="publications">Publications</a>
-    <a class="tab-link" href="#experience" data-tab-target="experience">Experience</a>
-    <a class="tab-link" href="#recognition" data-tab-target="recognition">Recognition</a>
-    <a class="tab-link" href="#skills" data-tab-target="skills">Skills</a>
-    <a class="tab-link" href="#contact" data-tab-target="contact">Contact</a>
-  </nav>
-
-<section id="research" class="section tab-panel is-active" data-tab-panel="research">
+  <section class="home-link-section" aria-labelledby="explore-heading">
     <div class="section-heading">
-      <p class="eyebrow">Research</p>
-      <h2>Efficient models for high-impact vision problems.</h2>
+      <p class="eyebrow">Explore</p>
+      <h2 id="explore-heading">Go deeper into my work.</h2>
     </div>
-    <div class="research-grid">
-      <article>
-        <h3>Efficient AI Architectures</h3>
-        <p>
-          Designing low-complexity deep learning models that preserve accuracy while reducing computation through
-          transform-based layers, decorrelated attention, and state-space modeling.
-        </p>
-      </article>
-      <article>
-        <h3>Medical Imaging</h3>
-        <p>
-          Developing MRI reconstruction, segmentation, and prostate cancer analysis pipelines with hybrid residual,
-          Hadamard, and Mamba-based architectures.
-        </p>
-      </article>
-      <article>
-        <h3>Remote Sensing</h3>
-        <p>
-          Applying transfer learning and computer vision to wildfire monitoring, situational awareness, and robust
-          environmental detection under challenging data conditions.
-        </p>
-      </article>
-      <article>
-        <h3>Hardware-Aware ML</h3>
-        <p>
-          Exploring GPU training, FPGA deployment, high-level synthesis, and model designs suited for constrained
-          computing systems.
-        </p>
-      </article>
+    <div class="home-link-grid">
+      <a class="home-link-card" href="{{ site.github.url }}/research">
+        <span>Research</span>
+        <small>Efficient AI, medical imaging, remote sensing, and hardware-aware ML.</small>
+      </a>
+      <a class="home-link-card" href="{{ site.github.url }}/publications">
+        <span>Publications</span>
+        <small>Selected papers, links, and expandable summaries.</small>
+      </a>
+      <a class="home-link-card" href="{{ site.github.url }}/experience">
+        <span>Experience</span>
+        <small>Research, teaching, editorial work, and engineering roles.</small>
+      </a>
+      <a class="home-link-card" href="{{ site.github.url }}/recognition">
+        <span>Recognition</span>
+        <small>Awards, leadership, and challenge results.</small>
+      </a>
+      <a class="home-link-card" href="{{ site.github.url }}/skills">
+        <span>Skills</span>
+        <small>Tools and methods for building efficient AI systems.</small>
+      </a>
+      <a class="home-link-card" href="{{ site.github.url }}/contact">
+        <span>Contact</span>
+        <small>Email, GitHub, LinkedIn, and Google Scholar.</small>
+      </a>
     </div>
   </section>
-
-  <section id="publications" class="section tab-panel" data-tab-panel="publications">
-    <div class="section-heading">
-      <p class="eyebrow">Publications</p>
-      <h2>Selected papers and a broader publication list.</h2>
-    </div>
-    <div class="publication-subsection">
-      <h3>Selected Papers</h3>
-      <p>
-        These are the papers highlighted in my resume, spanning efficient vision models, MRI prostate cancer analysis,
-        biomedical signal processing, hardware security, and wildfire detection.
-      </p>
-    </div>
-    <div class="publication-list">
-      <details class="paper-card">
-        <summary>
-          <span>DCT-Based Decorrelated Attention for Vision Transformers</span>
-          <small>IJCAI 2026</small>
-        </summary>
-        <p>Introduces DCT-based attention initialization and compression methods for Vision Transformers, improving training behavior and reducing computational overhead while preserving accuracy.</p>
-        <a class="paper-link" href="https://arxiv.org/abs/2405.13901">Paper</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>Hybrid Multi-Dimensional MRI Prostate Cancer Detection via Hadamard Network-Based Bias Correction and Residual Networks</span>
-          <small>EMBC 2026</small>
-        </summary>
-        <p>Combines HM-MRI tissue maps with a two-stage AI pipeline using Hadamard U-Net bias correction and ResNet-based classification for prostate cancer detection.</p>
-        <a class="paper-link" href="https://arxiv.org/abs/2604.17107">Paper</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>Zonal-Aware Prostate Cancer Detection via Hadamard-Fused Mamba-UNet</span>
-          <small>Submitted, 2026</small>
-        </summary>
-        <p>Uses Hadamard representations with Mamba-based models for real-time prostate zonal segmentation and improved cancer detection performance.</p>
-        <a class="paper-link" href="https://scholar.google.com/scholar?q=%22Zonal-Aware+Prostate+Cancer+Detection+via+Hadamard-Fused+Mamba-UNet%22">Paper Search</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>Real-time Instantaneous Phase Estimation Using a Deep Dual-Branch Complex Neural Network</span>
-          <small>TBME 2025</small>
-        </summary>
-        <p>Proposes a lightweight dual-branch complex neural architecture for low-latency instantaneous phase estimation of neural oscillations, with FPGA-oriented deployment.</p>
-        <a class="paper-link" href="https://scholar.google.com/scholar?q=%22Real-time+Instantaneous+Phase+Estimation+Using+a+Deep+Dual-Branch+Complex+Neural+Network%22">Paper Search</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>Reconfigurable Electromagnetically Unclonable Functions Based on Graphene RF Modulators</span>
-          <small>ACS Nano 2025</small>
-        </summary>
-        <p>Develops an electromagnetic PUF-based hardware security primitive using graphene RF modulators for device authentication and cryptographic identification.</p>
-        <a class="paper-link" href="https://scholar.google.com/scholar?q=%22Reconfigurable+Electromagnetically+Unclonable+Functions+Based+on+Graphene+RF+Modulators%22">Paper Search</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>Wildfire Detection via Transfer Learning: A Survey</span>
-          <small>SIVP 2024</small>
-        </summary>
-        <p>Surveys transfer learning methods for camera-based wildfire detection, comparing modern pretrained models and highlighting generalization and dataset-bias challenges.</p>
-        <a class="paper-link" href="https://arxiv.org/abs/2306.12276">Paper</a>
-      </details>
-    </div>
-    <div class="publication-subsection all-papers">
-      <h3>All Papers</h3>
-      <p>
-        A broader list of papers I could verify from public publication pages. For the live complete record,
-        visit my <a href="https://scholar.google.com/citations?hl=en&user=HeFM-v0AAAAJ">Google Scholar profile</a>.
-      </p>
-    </div>
-    <div class="publication-list compact-publications">
-      <details class="paper-card">
-        <summary>
-          <span>ShearFuse-UNet: Hadamard, DCT, and Shearlet Transform Fusion for Next-Day Wildfire Spread Prediction</span>
-          <small>2026</small>
-        </summary>
-        <p>Introduces a lightweight U-Net with Hadamard, DCT, and Shearlet transform branches for efficient next-day wildfire spread prediction from satellite data.</p>
-        <a class="paper-link" href="https://arxiv.org/abs/2606.14071">Paper</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>A Large Scale Open-Source Image and Video Dataset for Robust Wildfire Detection and Classification</span>
-          <small>2026</small>
-        </summary>
-        <p>Presents GWFP, a geographically diverse wildfire image and video dataset, with benchmarks for robust in-domain and cross-dataset fire and smoke detection.</p>
-        <a class="paper-link" href="https://arxiv.org/abs/2606.10174">Paper</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>Hybrid Multi-Dimensional MRI Prostate Cancer Detection via Hadamard Network-Based Bias Correction and Residual Networks</span>
-          <small>2026</small>
-        </summary>
-        <p>Uses Hadamard-based bias correction and residual networks to improve automated prostate cancer detection from hybrid multi-dimensional MRI maps.</p>
-        <a class="paper-link" href="https://arxiv.org/abs/2604.17107">Paper</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>Deep Learning Based Wildfire Detection for Peatland Fires Using Transfer Learning</span>
-          <small>2026</small>
-        </summary>
-        <p>Adapts wildfire detection models to peatland fire imagery using transfer learning, improving detection under low-contrast smoke and limited labeled data.</p>
-        <a class="paper-link" href="https://arxiv.org/abs/2603.02465">Paper</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>HTMA-Net: Towards Multiplication-Avoiding Neural Networks via Hadamard Transform and In-Memory Computing</span>
-          <small>2025</small>
-        </summary>
-        <p>Combines Hadamard transform layers with multiplication-avoiding SRAM-based in-memory computing to reduce arithmetic complexity in deep networks.</p>
-        <a class="paper-link" href="https://arxiv.org/abs/2509.23103">Paper</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>Real-time Instantaneous Phase Estimation Using a Deep Dual-Branch Complex Neural Network</span>
-          <small>2025</small>
-        </summary>
-        <p>Builds a compact neural architecture for real-time phase estimation in biomedical signals, targeting low-latency deployment.</p>
-        <a class="paper-link" href="https://scholar.google.com/scholar?q=%22Real-time+Instantaneous+Phase+Estimation+Using+a+Deep+Dual-Branch+Complex+Neural+Network%22">Paper Search</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>Reconfigurable Electromagnetically Unclonable Functions Based on Graphene RF Modulators</span>
-          <small>2025</small>
-        </summary>
-        <p>Explores reconfigurable electromagnetic unclonable functions using graphene RF modulators for authentication and security.</p>
-        <a class="paper-link" href="https://scholar.google.com/scholar?q=%22Reconfigurable+Electromagnetically+Unclonable+Functions+Based+on+Graphene+RF+Modulators%22">Paper Search</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>Sparse Mamba: Introducing Controllability, Observability, and Stability to Structural State Space Models</span>
-          <small>2024</small>
-        </summary>
-        <p>Applies control-theoretic ideas to Mamba-style state-space models, targeting more controllable, observable, stable, and parameter-efficient sequence models.</p>
-        <a class="paper-link" href="https://arxiv.org/abs/2409.00563">Paper</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>DCT-Based Decorrelated Attention for Vision Transformers</span>
-          <small>2024</small>
-        </summary>
-        <p>Uses DCT structure to initialize and compress attention in Vision Transformers, improving efficiency while retaining task performance.</p>
-        <a class="paper-link" href="https://arxiv.org/abs/2405.13901">Paper</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>Wildfire Detection via Transfer Learning: A Survey</span>
-          <small>2024</small>
-        </summary>
-        <p>Reviews transfer learning for wildfire detection and compares pretrained vision models for visible-camera fire and smoke monitoring.</p>
-        <a class="paper-link" href="https://arxiv.org/abs/2306.12276">Paper</a>
-      </details>
-      <details class="paper-card">
-        <summary>
-          <span>Zonal-Aware Prostate Cancer Detection via Hadamard-Fused Mamba-UNet</span>
-          <small>2026</small>
-        </summary>
-        <p>Develops a transform-enhanced Mamba-UNet pipeline for prostate zonal segmentation and cancer detection.</p>
-        <a class="paper-link" href="https://scholar.google.com/scholar?q=%22Zonal-Aware+Prostate+Cancer+Detection+via+Hadamard-Fused+Mamba-UNet%22">Paper Search</a>
-      </details>
-    </div>
-  </section>
-
-  <section id="experience" class="section two-column tab-panel" data-tab-panel="experience">
-    <div>
-      <p class="eyebrow">Experience</p>
-      <h2>Research, teaching, editorial work, and applied engineering.</h2>
-    </div>
-    <div class="timeline">
-      <article>
-        <span>May 2025 - Present</span>
-        <h3>Research Assistant, Machine and Hybrid Intelligence Lab</h3>
-        <p>Northwestern University. AI-driven medical imaging and prostate cancer analysis with Prof. Ulas Bagci and Prof. Ahmet Enis Cetin.</p>
-      </article>
-      <article>
-        <span>Jan. 2023 - Present</span>
-        <h3>Research & Teaching Assistant, UIC ECE</h3>
-        <p>Developing scalable models for computer vision and signal processing while supporting DSP and neural networks courses.</p>
-      </article>
-      <article>
-        <span>July 2025 - Present</span>
-        <h3>Assistant Editor, Springer Nature</h3>
-        <p>Assessing machine learning and signal processing manuscripts for clarity, rigor, and publication quality.</p>
-      </article>
-      <article>
-        <span>May 2022 - Jan. 2023</span>
-        <h3>Electrical Engineer, L3DFX LLC</h3>
-        <p>Designed and tested signal processing circuits, embedded systems, and microcontroller-based control solutions.</p>
-      </article>
-    </div>
-  </section>
-
-  <section id="recognition" class="section two-column tab-panel" data-tab-panel="recognition">
-    <div>
-      <p class="eyebrow">Recognition</p>
-      <h2>Awards and leadership.</h2>
-    </div>
-    <div class="compact-list">
-      <p><strong>NASA Beyond the Algorithm Challenge, Top 9 Finalist.</strong> Developed transform-based ML layers for efficient computing in quantum and in-memory systems.</p>
-      <p><strong>NASA MSI Incubator Wildfire Climate Tech Challenge, Runner-Up.</strong> Built a computer vision system for wildfire situational awareness and early detection.</p>
-      <p><strong>NSF I-Corps POSE Program, Entrepreneurial Lead.</strong> Led commercialization work for hardware-aware ML solutions.</p>
-      <p><strong>IEEE Communication Society, UIC Student Branch Secretary.</strong> Organizing technical events across AI, signal processing, and communications.</p>
-    </div>
-  </section>
-
-  <section id="skills" class="section tab-panel" data-tab-panel="skills">
-    <div class="section-heading">
-      <p class="eyebrow">Technical Strengths</p>
-      <h2>Tools and methods I use to build efficient AI systems.</h2>
-    </div>
-    <div class="skill-cloud">
-      <span>Python</span>
-      <span>PyTorch</span>
-      <span>TensorFlow</span>
-      <span>CUDA</span>
-      <span>Computer Vision</span>
-      <span>State-Space Models</span>
-      <span>Mamba</span>
-      <span>Hadamard Transforms</span>
-      <span>DCT</span>
-      <span>LLMs and VLMs</span>
-      <span>FPGA Deployment</span>
-      <span>HLS</span>
-      <span>MATLAB</span>
-      <span>C</span>
-      <span>Linux</span>
-      <span>Git</span>
-    </div>
-  </section>
-
-  <section id="contact" class="section contact-panel tab-panel" data-tab-panel="contact">
-    <div>
-      <p class="eyebrow">Contact</p>
-      <h2>Open to research collaborations and Ph.D.-level opportunities in efficient AI.</h2>
-      <p>Chicago, IL / University of Illinois Chicago</p>
-    </div>
-    <div class="contact-links">
-      <a href="mailto:e.hamdan2030@gmail.com">e.hamdan2030@gmail.com</a>
-      <a href="https://github.com/Emadeldeen-Hamdan">github.com/Emadeldeen-Hamdan</a>
-      <a href="https://www.linkedin.com/in/emadeldeen-h/">linkedin.com/in/emadeldeen-h</a>
-      <a href="https://scholar.google.com/citations?hl=en&user=HeFM-v0AAAAJ">Google Scholar</a>
-    </div>
-  </section>
-  </div>
 </main>
-
-<script>
-(function () {
-  var root = document.querySelector(".profile-site");
-  var panels = Array.prototype.slice.call(document.querySelectorAll("[data-tab-panel]"));
-  if (!root || panels.length === 0) return;
-
-  var panelIds = panels.map(function (panel) { return panel.id; });
-  var links = Array.prototype.slice.call(document.querySelectorAll("a[href^=\"#\"], a[href*=\"/#\"]"));
-
-  function idFromHash(hash) {
-    if (!hash) return null;
-    var id = hash.replace(/^#/, "");
-    return panelIds.indexOf(id) >= 0 ? id : null;
-  }
-
-  function activate(id, updateHistory) {
-    if (panelIds.indexOf(id) < 0) id = "research";
-
-    panels.forEach(function (panel) {
-      var isActive = panel.id === id;
-      panel.classList.toggle("is-active", isActive);
-      panel.hidden = !isActive;
-    });
-
-    links.forEach(function (link) {
-      var target = idFromHash(link.hash);
-      if (target) link.classList.toggle("is-active", target === id);
-    });
-
-    root.classList.add("tabs-ready");
-
-    if (updateHistory) {
-      history.pushState(null, "", "#" + id);
-    }
-  }
-
-  links.forEach(function (link) {
-    var target = idFromHash(link.hash);
-    if (!target) return;
-
-    link.addEventListener("click", function (event) {
-      event.preventDefault();
-      activate(target, true);
-    });
-  });
-
-  window.addEventListener("popstate", function () {
-    activate(idFromHash(window.location.hash) || "research", false);
-  });
-
-  activate(idFromHash(window.location.hash) || "research", false);
-}());
-</script>
