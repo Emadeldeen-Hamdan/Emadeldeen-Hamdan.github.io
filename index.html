@@ -50,9 +50,19 @@ title: Home
         <small>Bagci Lab</small>
       </a>
     </div>
-  </section>
+</section>
 
-  <section id="research" class="section">
+<div class="tab-shell">
+  <nav class="section-tabs" aria-label="Profile sections">
+    <a class="tab-link" href="#research" data-tab-target="research">Research</a>
+    <a class="tab-link" href="#publications" data-tab-target="publications">Publications</a>
+    <a class="tab-link" href="#experience" data-tab-target="experience">Experience</a>
+    <a class="tab-link" href="#recognition" data-tab-target="recognition">Recognition</a>
+    <a class="tab-link" href="#skills" data-tab-target="skills">Skills</a>
+    <a class="tab-link" href="#contact" data-tab-target="contact">Contact</a>
+  </nav>
+
+<section id="research" class="section tab-panel is-active" data-tab-panel="research">
     <div class="section-heading">
       <p class="eyebrow">Research</p>
       <h2>Efficient models for high-impact vision problems.</h2>
@@ -89,7 +99,7 @@ title: Home
     </div>
   </section>
 
-  <section id="publications" class="section">
+  <section id="publications" class="section tab-panel" data-tab-panel="publications">
     <div class="section-heading">
       <p class="eyebrow">Publications</p>
       <h2>Selected papers and a broader publication list.</h2>
@@ -250,7 +260,7 @@ title: Home
     </div>
   </section>
 
-  <section id="experience" class="section two-column">
+  <section id="experience" class="section two-column tab-panel" data-tab-panel="experience">
     <div>
       <p class="eyebrow">Experience</p>
       <h2>Research, teaching, editorial work, and applied engineering.</h2>
@@ -279,7 +289,7 @@ title: Home
     </div>
   </section>
 
-  <section class="section two-column">
+  <section id="recognition" class="section two-column tab-panel" data-tab-panel="recognition">
     <div>
       <p class="eyebrow">Recognition</p>
       <h2>Awards and leadership.</h2>
@@ -292,7 +302,7 @@ title: Home
     </div>
   </section>
 
-  <section class="section">
+  <section id="skills" class="section tab-panel" data-tab-panel="skills">
     <div class="section-heading">
       <p class="eyebrow">Technical Strengths</p>
       <h2>Tools and methods I use to build efficient AI systems.</h2>
@@ -317,7 +327,7 @@ title: Home
     </div>
   </section>
 
-  <section id="contact" class="section contact-panel">
+  <section id="contact" class="section contact-panel tab-panel" data-tab-panel="contact">
     <div>
       <p class="eyebrow">Contact</p>
       <h2>Open to research collaborations and Ph.D.-level opportunities in efficient AI.</h2>
@@ -330,4 +340,59 @@ title: Home
       <a href="https://scholar.google.com/citations?hl=en&user=HeFM-v0AAAAJ">Google Scholar</a>
     </div>
   </section>
+  </div>
 </main>
+
+<script>
+(function () {
+  var root = document.querySelector(".profile-site");
+  var panels = Array.prototype.slice.call(document.querySelectorAll("[data-tab-panel]"));
+  if (!root || panels.length === 0) return;
+
+  var panelIds = panels.map(function (panel) { return panel.id; });
+  var links = Array.prototype.slice.call(document.querySelectorAll("a[href^=\"#\"], a[href*=\"/#\"]"));
+
+  function idFromHash(hash) {
+    if (!hash) return null;
+    var id = hash.replace(/^#/, "");
+    return panelIds.indexOf(id) >= 0 ? id : null;
+  }
+
+  function activate(id, updateHistory) {
+    if (panelIds.indexOf(id) < 0) id = "research";
+
+    panels.forEach(function (panel) {
+      var isActive = panel.id === id;
+      panel.classList.toggle("is-active", isActive);
+      panel.hidden = !isActive;
+    });
+
+    links.forEach(function (link) {
+      var target = idFromHash(link.hash);
+      if (target) link.classList.toggle("is-active", target === id);
+    });
+
+    root.classList.add("tabs-ready");
+
+    if (updateHistory) {
+      history.pushState(null, "", "#" + id);
+    }
+  }
+
+  links.forEach(function (link) {
+    var target = idFromHash(link.hash);
+    if (!target) return;
+
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      activate(target, true);
+    });
+  });
+
+  window.addEventListener("popstate", function () {
+    activate(idFromHash(window.location.hash) || "research", false);
+  });
+
+  activate(idFromHash(window.location.hash) || "research", false);
+}());
+</script>
